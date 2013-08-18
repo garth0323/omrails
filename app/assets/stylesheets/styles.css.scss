@@ -1,8 +1,17 @@
 @import 'bootstrap';
+@import 'bootstrap-responsive';
+
+$navbarBackgroundHighlight: $black;
+$navbarBackground: $black;
+$navbarLinkColor: $white;
 
 body {
 
 	padding-top: 60px;
 }
 
-@import 'bootstrap-responsive';
+.footer {
+	margin-top: 200px;
+	color: $gray;
+}
+
