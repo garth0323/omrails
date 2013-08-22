@@ -4,5 +4,7 @@ class User < ActiveRecord::Base
   # :lockable, :timeoutable and :omniauthable :recoverable,
   devise :database_authenticatable, :registerable,
          :rememberable, :trackable, :validatable
+
+  has_many :pins
 end
 
