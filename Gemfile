@@ -7,6 +7,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'devise'
 gem 'simple_form'
+gem 'paperclip', github: 'thoughtbot/paperclip', branch: 'rails-4'
 
 group :production do
     gem 'pg'
