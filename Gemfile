@@ -8,6 +8,7 @@ gem 'turbolinks'
 gem 'devise'
 gem 'simple_form'
 gem 'paperclip', github: 'thoughtbot/paperclip', branch: 'rails-4'
+gem 'faker', '1.1.2'
 
 group :production do
     gem 'pg'
